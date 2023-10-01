@@ -1,0 +1,327 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.nvbar{
+    background-color: black;
+    height: 45px;
+    width: 100%;
+    position: fixed;
+}
+.nvbar button{
+    background-color: black;
+    color: aliceblue;
+    border: none;
+    cursor: pointer;
+    padding-right: 0px;
+    margin-top: 12px;
+    width: 70px;
+    height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    transition: 0.3s ease;
+}
+.nvbar button:hover{
+    width: 70px;
+    height: 30px;
+    background-color: silver;
+    color: black;
+}
+.btnbar{
+display: inline;
+align-items: center;
+justify-content: center;
+padding-right: 10px;
+padding-left: 10px;
+}
+.searchbtns {
+    float: right;
+    display: inline-block;
+    padding-left: 10;
+
+}
+.rockimg img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.chicago{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 99%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    color: white;
+}
+.chicago p{
+    font-size:25px;
+    padding-bottom: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.chicago strong{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.thebndall{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    width: 100%;
+}
+.thebnd{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+    width: 100%;
+    padding-top: 35px;
+}
+#nmmsc{
+    padding-bottom: 20px;
+    color: #999999;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#cntx{
+    margin-left: 360px;
+    margin-right: 360px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#name{
+    font-size: 30px;
+    padding-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.imgpht{
+    width: 100%;
+    height: 200px;
+display: flex;
+justify-content: center;
+align-items: center;
+padding-bottom: 90px;
+}
+.name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+   height: 20px;
+   padding-left: 150px;
+}
+.name p{
+    padding-right: 235px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ynpht{
+margin-left: 10px;
+    padding-right: 100px;
+}
+.ynpht img{
+    width: 160px;
+    height: 160px;
+    border-radius: 5px;
+    
+
+}
+.ticket{
+    background-color: black;
+    height: 850px;
+    width: 100%;
+    
+}
+.dts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-top: 80px;
+}
+.dts strong{
+    color: white;
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.dts p{
+    color: #999999;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.month{
+    background-color: white;
+    margin-left: 338px;
+    margin-right: 347px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.month{
+    height: 120px;
+}
+.month ul{ display: flex;
+    flex-direction: column;
+height: 120px;
+}
+.month li{    
+
+    
+    height: 40px;
+}
+.mnth{
+    display: flex;
+}
+.sold{
+    margin-top: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    height: 25px;
+    color: white;
+}
+.nmbr{
+   background-color: black;
+   color: white;
+   height: 25px;
+   margin-top: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: right;
+    width: 25px;
+    border-radius: 50%;
+}
+.mnt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #999999;
+    padding-right: 20px;
+    padding-left: 15px;
+}
+.orta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    width: 100%;
+    padding-top: 15px;
+
+}
+.yanyana{
+    display: inline-block;
+    margin-right: 10px;
+    padding: 10px;
+    background-color: white;
+    height: 390px;
+    width: 250px;
+}
+.tarix{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #999999;
+}
+.yanyana img{
+width: 100%;
+height: 200px;
+padding-bottom: 15px;
+}
+.yanyana strong{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.yanyana p{
+padding-bottom: 11px;
+padding-top: 15px;
+font-family: Arial, Helvetica, sans-serif;
+}
+.yanyana button{
+    background-color: black;
+    color: white;
+    border: none;
+    width: 90px;
+    height: 40px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.yanyana button:hover{
+    background-color: silver;
+    color: black;
+}
+.hdcnt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.cnt{
+    font-size: 32px;
+    padding-top: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.note{
+    color: #999999;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 15px;
+}
+.sc2{
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sprt{
+    margin-left: 230px;
+    margin-right: 400px;
+}
+.sprt p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fbck{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.brdr {
+    border-color: #999999;
+    height: 30px;
+}
+.msggs{
+    border-color: #999999;
+    height: 30px;
+width: 332px;
+}
+.msgs{
+    padding-top: 10px;
+}
+.sndbtn{
+padding-top: 17px;
+}
+.sndbtn button{
+background-color: black;
+color: white;
+width: 70px;
+height: 40px;
+transition: 0.3s ease;
+}
+.sndbtn button:hover{
+    color: black;
+    background-color: silver;
+    border: none;
+}
+.rdphoto img{
+    padding-top: 100px;
+    width: 100%;
+}
+
